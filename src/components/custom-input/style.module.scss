@@ -1,0 +1,15 @@
+.inputs{
+    display: block;
+    text-align: start;
+    margin-top: 16px;
+}
+.input{
+    width:345px;
+    height: 56px;
+    border-radius: 3px;
+}
+
+.label::after{
+    content: '*';
+    color: red;
+}

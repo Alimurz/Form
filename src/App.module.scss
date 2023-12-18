@@ -1,0 +1,19 @@
+.App {
+  text-align: center;
+  background-color: lightgray;
+}
+body{
+  font-family: 'Plus Jakarta Sans', sans-serif;
+}
+.link{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.pagelink{
+margin: 10px 20px;
+text-decoration: none;
+color: black;
+background-color:  yellow;
+padding:10px; 
+}

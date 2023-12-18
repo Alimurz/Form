@@ -1,0 +1,41 @@
+.form{
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    width: 337px;
+    background-color: white;
+    padding: 55px 28px 125px 25px;
+    border-radius: 3px;
+}
+.logo{
+    background-image: url(../../../assets/images/logo.png);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    width:168px;
+    height: 92px;
+} 
+.inputs{
+  margin-top: 28px;
+}
+.or{
+  opacity: 0.5;
+ 
+}
+.or::before{
+  content: 'ㅤㅤㅤㅤㅤㅤㅤ';
+  font-size: 18px;
+  text-decoration: line-through;
+  padding: 0 10px;
+}
+.or::after{
+  content: 'ㅤㅤㅤㅤㅤㅤㅤ';
+  font-size: 18px;
+  text-decoration: line-through;
+  padding: 0 10px;
+}
+.error{
+  color: red;
+  font-size: 12px;
+}

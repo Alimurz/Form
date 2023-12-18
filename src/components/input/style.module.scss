@@ -1,0 +1,25 @@
+.inputs{
+    display: block;
+    text-align: start;
+    margin-top: 16px;
+    input:focus{
+        border: 1px solid #1676F3 !important;
+    }
+    input:focus + .label{
+
+        color: #1676F3 ; 
+    }
+}
+
+input:focus{ outline: none; }
+.input{
+    width:336px;
+    height: 56px;
+    border:1px solid grey ;
+    border-radius: 3px;
+}   
+
+.label::after{
+    content: '*';
+    color: red;
+}
